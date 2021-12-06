@@ -1,0 +1,42 @@
+.header__content {
+    @include customFlex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.logo__img {
+    width: 42px;
+    height: 42px;
+}
+
+.header__title {
+    @include text (normal,500,25px,24px,$baseCLR);
+    margin-left: 15px;
+}
+
+.nav, .header__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav__item {
+    margin-left: 40px;
+}
+
+.nav__link {
+    @include text (normal,200,16px,26px,$baseCLR);
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+.nav__btn {
+    @include button (15px 30px,$btnBCK,2px,center,160px);
+    @include text (normal,200,16px,26px,$baseCLR);
+    color: $clrTXT;
+    text-transform: uppercase;
+}
