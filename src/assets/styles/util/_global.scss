@@ -1,6 +1,5 @@
-/*=======GLOBAL=======*/
-@import "var";
 @import "fonts";
+@import "colors";
 
 html {
     font-size: 10px;
@@ -46,10 +45,11 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     font-family: Roboto, sans-serif;
+    background: $bodyBCG;
 }
 
 .container {
-    max-width: 1400px; // ширина контента плюс паддинги
+    max-width: 1100px; 
     margin: 0 auto;
     padding-right: 10px;
     padding-left: 10px;
