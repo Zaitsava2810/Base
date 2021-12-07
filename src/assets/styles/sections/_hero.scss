@@ -1,0 +1,45 @@
+.hero {
+    padding-top: 122px;
+    padding-bottom: 131.4px;   
+}
+
+.hero__section {
+    @include customFlex;
+}
+
+.hero__content {
+    width: 345px;
+}
+
+.hero__title {
+    @include text (normal,bold,61px,120%,$baseCLR);
+}
+
+.hero__subtitle {
+    @include text (normal,normal,16px,160%,$baseCLR);
+    opacity: 0.6;
+    margin-top: 25px;
+}
+
+.hero__btn {
+    @include customFlex;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.btn {
+    width: 160px;
+    height: 56px;
+    border-radius: 2px;
+    border-color:  $btnBCK;
+    @include text (normal,normal,16px,160%,$white);
+    padding-top: 15px;
+}
+
+.btn:hover {
+    background: $btnBCK;
+}
+
+.active {
+    background: $btnBCK;
+}
