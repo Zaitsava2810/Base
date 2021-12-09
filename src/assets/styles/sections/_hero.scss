@@ -1,0 +1,102 @@
+.hero {
+    padding-top: 122px;
+    padding-bottom: 131.4px;   
+}
+
+.hero__section {
+    @include customFlex;
+}
+
+.hero__shell {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__content {
+    width: 345px;
+}
+
+.hero__title {
+    @include text (normal,bold,61px,120%,$baseCLR);
+}
+
+.hero__subtitle {
+    @include text (normal,normal,16px,160%,$baseCLR);
+    opacity: 0.6;
+    margin-top: 25px;
+}
+
+.hero__btn {
+    @include customFlex;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.btn {
+    width: 160px;
+    height: 56px;
+    border-radius: 2px;
+    border-color:  $btnBCK;
+    @include text (normal,normal,16px,160%,$white);
+    padding-top: 15px;
+}
+
+.btn:hover {
+    background: $btnBCK;
+}
+
+.active {
+    background: $btnBCK;
+}
+
+.hero__information {
+    width: 407px;
+    height: 150px;
+    background: $gray;
+    margin-top: 63px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info__item {
+    width: 145px;
+    margin: 30px 0 30px 30px;
+    border-right: 1px solid #a1a1a19d;
+}
+
+.item__text {
+    @include text (normal,400,13px,17px,$baseCLR);
+}
+
+.item__title {
+    @include text (normal,500,31px,43px,$baseCLR);
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+
+.item__subtitle {
+    @include text (normal,400,13px,17px,$baseCLR);
+    opacity: 0.5;
+}
+
+.info__inner {
+    width: 200px;
+    height: 90px;
+    margin: 40px 30px 30px 8px;
+    @include customFlex;
+}
+
+.inner {
+    margin-left: 30px;
+}
+
+.inner__title {
+    @include text (normal,500,31px,43px,$baseCLR);
+    margin-bottom: 8px
+}
+
+.inner__subtitle {
+    @include text (normal,400,13px,17px,$baseCLR);
+    opacity: 0.5;
+}
+
