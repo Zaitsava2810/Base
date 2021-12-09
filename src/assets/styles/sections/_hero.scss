@@ -20,13 +20,13 @@
     @include text (normal,bold,61px,120%,$baseCLR);
 }
 
-.hero__subtitle {
+.subtitle {
     @include text (normal,normal,16px,160%,$baseCLR);
     opacity: 0.6;
     margin-top: 25px;
 }
 
-.hero__btn {
+.btn__content {
     @include customFlex;
     text-align: center;
     margin-top: 35px;
