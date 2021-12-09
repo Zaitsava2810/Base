@@ -1,3 +1,15 @@
+.gallery {
+    margin-top: 130px;
+}
+
 .gallery__shell {
-    @include custommFlex;
+    @include customFlex;
+}
+
+.gallery__images {
+    width: 527px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 20px;
 }
