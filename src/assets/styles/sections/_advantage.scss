@@ -1,0 +1,16 @@
+.advantage {
+    margin-top: 200px;
+}
+
+.advantage__content {
+    width: 310px;
+}
+
+.card__item {
+    width: 344px;
+    height: 223px;
+    background: $clr3;
+    opacity: 0.3;
+    backdrop-filter: blur(4px);
+    border-radius: 2px;
+}
