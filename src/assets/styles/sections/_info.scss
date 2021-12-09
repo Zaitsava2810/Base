@@ -1,0 +1,22 @@
+.info {
+    width: 1600px;
+    height: 238px;
+    background: $circleBCG;
+}
+
+.info__content {
+    width: 884px;
+    @include customFlex;
+    margin-left: 334px;
+    margin-top: 60px;
+}
+
+.text__info {
+    @include text (normal,500,61px,120%,$baseCLR);
+}
+
+.subtext__info {
+    @include text (normal,400,25px,150%,$baseCLR);
+    opacity: 0.7;
+    text-align: center;
+}
