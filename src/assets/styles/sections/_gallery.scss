@@ -1,5 +1,6 @@
 .gallery {
     margin-top: 130px;
+    position: relative;
 }
 
 .gallery__shell {
@@ -12,6 +13,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
     grid-row-gap: 20px;
+    z-index: 1;
 }
 
 .gallery__content {
@@ -21,4 +23,16 @@
 
 .gallery__title {
     @include text (normal,700,49px,58px,$baseCLR)
+}
+
+.blur__one {
+    @include blur (784px,729px,100%,$blurCLR,blur(472px),absolute);
+    top: -200px;
+    left: -200px;
+}
+
+.blur__two {
+    @include blur (594px,594px,100%,$blurCLR2,blur(472px),absolute);
+    right: -200px;
+    top: -300px;
 }

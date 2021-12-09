@@ -19,3 +19,12 @@
     text-align: $ta;
     width: $wi;
 }
+
+@mixin blur ($wi,$he,$br,$bcg,$fil,$pos) {
+    width: $wi;
+    height: $he;
+    border-radius: $br;
+    background: $bcg;
+    filter: $fil;
+    position: $pos;
+}
