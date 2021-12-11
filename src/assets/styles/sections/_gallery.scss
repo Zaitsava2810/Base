@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.gallery__shell {
+.shell {
     @include customFlex;
 }
 
@@ -22,18 +22,18 @@
     z-index: 1;
 }
 
-.gallery__title {
+.title {
     @include text (normal,700,49px,58px,$baseCLR)
 }
 
 .blur__one {
     @include blur (784px,729px,100%,$blurCLR,blur(472px),absolute);
-    top: -200px;
-    left: -200px;
+    top: -300px;
+    left: -400px;
 }
 
 .blur__two {
     @include blur (594px,594px,100%,$blurCLR2,blur(472px),absolute);
-    right: -200px;
+    right: -400px;
     top: -300px;
 }
