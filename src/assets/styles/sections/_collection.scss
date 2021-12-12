@@ -68,3 +68,24 @@
     border-radius: 2px;
     text-transform: uppercase;
 }
+
+.price {
+    @include customFlex;
+    margin-top: 18px;
+    height: 51px;
+}
+
+.price svg {
+    position: relative;
+    top: 20px;
+}
+
+.price__subtitle {
+    @include text (normal,normal,16px,25px,$baseCLR);
+    opacity: 0.7;
+    margin-left: 35px;
+}
+
+.price__text {
+    @include text (normal,500,20px,32px,$clr4);
+}
