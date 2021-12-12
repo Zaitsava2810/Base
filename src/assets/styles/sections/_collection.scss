@@ -1,7 +1,23 @@
 .collection {
     margin-top: 200px;
+    text-align: center;
 }
 
-.coll__content {
-    text-align: center;
+.nav__collection {
+    width: 919px;
+    @include customFlex;
+    text-decoration: none;
+    margin: 59px 0 0 80px;
+}
+
+.coll__link {
+    width: 163px;
+    padding: 15px 0;
+    background: $gray;
+    @include text (normal,normal,16px,25px,$baseCLR);
+    transition: background 0.5s ease;
+}
+
+.coll__link:hover {
+    background: $btnBCK;
 }
