@@ -30,10 +30,13 @@
 .catalog {
     @include customFlex;
     margin-top: 26px;
+    overflow: hidden;
 }
 
 .slider {
     width: 345px;
+    max-width: 400px;
+    min-width: 345px;
     height: 399px;
     background: $gray;
     backdrop-filter: blur(4px);
