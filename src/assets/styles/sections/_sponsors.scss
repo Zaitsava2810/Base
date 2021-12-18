@@ -1,6 +1,7 @@
 .sponsors {
   margin-top: 130px;
   background: $circleBCG;
+  position: relative;
 }
 
 .sponsors__content {
@@ -19,4 +20,16 @@
 
 .spon__img-1 {
   margin-top: 20px;
+}
+
+.blur__three {
+  @include blur(550px, 550px, 100%, $blurCLR, blur(472px), absolute);
+  top: -100px;
+  left: -400px;
+}
+
+.blur__foure {
+  @include blur(450px, 450px, 100%, $blurCLR2, blur(472px), absolute);
+  right: -400px;
+  top: -50px;
 }
