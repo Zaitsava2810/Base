@@ -1,0 +1,22 @@
+.sponsors {
+  margin-top: 130px;
+  background: $circleBCG;
+}
+
+.sponsors__content {
+  padding: 91px 50px 91px 50px;
+}
+
+.sponsors__item {
+  @include customFlex;
+  align-items: center;
+}
+
+.spon__img,
+.spon__img-1 {
+  width: 140px;
+}
+
+.spon__img-1 {
+  margin-top: 20px;
+}
