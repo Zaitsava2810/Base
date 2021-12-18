@@ -27,5 +27,29 @@
 }
 
 .img__man:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
+}
+
+.text__item {
+  text-align: center;
+  margin-top: -55px;
+}
+
+.text__title {
+  @include text(normal, 500, 20px, 32px, $baseCLR);
+  margin-top: 15px;
+}
+
+.text__subtitle {
+  @include text(normal, normal, 16px, 25px, $baseCLR);
+  opacity: 0.6;
+  margin: 10px 0 15px 0;
+}
+
+.text__btn {
+  padding: 15px 56px;
+  background: $btnBCK;
+  @include text(normal, normal, 16px, 26px, $baseCLR);
+  border-radius: 2px;
+  text-transform: uppercase;
 }
