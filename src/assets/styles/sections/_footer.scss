@@ -2,3 +2,14 @@ footer {
   background: $circleBCG;
   padding: 40px 0 40px 0;
 }
+
+.footer__nav {
+  width: 554px;
+  @include customFlex;
+  margin-left: 450px;
+}
+
+.nav__links {
+  @include text(normal, 200, 16px, 26px, $baseCLR);
+  text-decoration: none;
+}
