@@ -1,94 +1,94 @@
 .collection {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .coll__content {
-    text-align: center;
+  text-align: center;
 }
 
 .nav__collection {
-    width: 919px;
-    @include customFlex;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 59px 0 0 80px;
+  width: 919px;
+  @include customFlex;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 59px 0 0 80px;
 }
 
 .coll__link {
-    width: 163px;
-    padding: 15px 0;
-    background: $gray;
-    @include text (normal,normal,16px,25px,$baseCLR);
-    transition: background 0.5s ease;
+  width: 163px;
+  padding: 15px 0;
+  background: $gray;
+  @include text(normal, normal, 16px, 25px, $baseCLR);
+  transition: background 0.5s ease;
 }
 
 .coll__link:hover {
-    background: $btnBCK;
+  background: $btnBCK;
 }
 
 .catalog {
-    @include customFlex;
-    margin-top: 26px;
-    overflow: hidden;
+  @include customFlex;
+  margin-top: 26px;
+  overflow: hidden;
 }
 
 .slider {
-    width: 345px;
-    max-width: 400px;
-    min-width: 345px;
-    height: 399px;
-    background: $gray;
-    backdrop-filter: blur(4px);
-    border-radius: 2px;
-    padding: 30px;
+  width: 345px;
+  max-width: 400px;
+  min-width: 345px;
+  height: 399px;
+  background: $gray;
+  backdrop-filter: blur(4px);
+  border-radius: 2px;
+  padding: 30px;
 }
 
 .img__slider {
-    width: 285px;
-    height: 182px;   
+  width: 285px;
+  height: 182px;
 }
 
 .slider__content {
-    @include customFlex;
-    margin-top: 30px;
-    height: 51px;
+  @include customFlex;
+  margin-top: 30px;
+  height: 51px;
 }
 
 .slider__title {
-    @include text (normal,500,20px,32px,$baseCLR);
+  @include text(normal, 500, 20px, 32px, $baseCLR);
 }
 
 .slider__subtitle {
-    @include text (normal,normal,16px,25px,$baseCLR);
-    opacity: 0.7;
+  @include text(normal, normal, 16px, 25px, $baseCLR);
+  opacity: 0.7;
 }
 
 .slider__btn {
-    padding: 10px 18px;
-    background: $btnBCK;
-    @include text (normal,normal,16px,26px,$baseCLR);
-    border-radius: 2px;
-    text-transform: uppercase;
+  padding: 10px 18px;
+  background: $btnBCK;
+  @include text(normal, normal, 16px, 26px, $baseCLR);
+  border-radius: 2px;
+  text-transform: uppercase;
 }
 
 .price {
-    @include customFlex;
-    margin-top: 18px;
-    height: 51px;
+  @include customFlex;
+  margin-top: 18px;
+  height: 51px;
 }
 
 .price svg {
-    position: relative;
-    top: 20px;
+  position: relative;
+  top: 20px;
 }
 
 .price__subtitle {
-    @include text (normal,normal,16px,25px,$baseCLR);
-    opacity: 0.7;
-    margin-left: 35px;
+  @include text(normal, normal, 16px, 25px, $baseCLR);
+  opacity: 0.7;
+  margin-left: 35px;
 }
 
 .price__text {
-    @include text (normal,500,20px,32px,$clr4);
+  @include text(normal, 500, 20px, 32px, $clr4);
 }
