@@ -5,3 +5,27 @@
 .catalog {
   margin-top: 60px;
 }
+
+.slider__item {
+  width: 345px;
+  max-width: 400px;
+  min-width: 345px;
+  height: 484px;
+  background: $gray;
+  backdrop-filter: blur(4px);
+  border-radius: 2px;
+  padding: 30px;
+}
+
+.img__man {
+  width: 92px;
+  height: 92px;
+  position: relative;
+  bottom: 46px;
+  left: 95px;
+  transition: all 0.5s ease;
+}
+
+.img__man:hover {
+  transform: scale(1.5);
+}
